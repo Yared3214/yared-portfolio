@@ -126,38 +126,6 @@ export default function Home() {
         <div className="flex flex-col gap-3 sticky top-0 h-screen overflow-y-auto py-24">
           <div className="text-5xl text-white">Yared Bitewlign</div>
           <div className="text-xl text-white">Web And App developer</div>
-          {/* nav bar  */}
-          {/* <nav className="mt-24">
-            <ul className="flex flex-col gap-5">
-              <li>
-                <Link href="#about" className="group flex items-center">
-                  <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 
-                group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 
-                motion-reduce:transition-none"></span>
-                  <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 
-                group-hover:text-slate-200 group-focus-visible:text-slate-200">About</span>
-                </Link>
-              </li>
-              <li>
-                <Link href="#skills" className="group flex items-center">
-                  <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 
-                group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 
-                motion-reduce:transition-none"></span>
-                  <span data-testid="skills-section" className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 
-                group-hover:text-slate-200 group-focus-visible:text-slate-200">Skills</span>
-                </Link>
-              </li>
-              <li>
-                <Link href="#project" className="group flex items-center">
-                  <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 
-                group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 
-                motion-reduce:transition-none"></span>
-                  <span data-testid="project-section" className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 
-                group-hover:text-slate-200 group-focus-visible:text-slate-200">Projects</span>
-                </Link>
-              </li>
-            </ul>
-          </nav> */}
           <nav className="mt-24">
             <ul className="flex flex-col gap-5">
               {sections.map((section) => (
