@@ -1,4 +1,4 @@
-![Screenshot (299)](https://github.com/user-attachments/assets/8c4ef89f-62ab-403a-b725-46f872fbe87e)# 🌐 My Portfolio Website
+# 🌐 My Portfolio Website
 
 Welcome to my **personal portfolio website**, where I showcase my skills, projects, and experience as a frontend developer. 🚀  
 
@@ -13,7 +13,7 @@ Welcome to my **personal portfolio website**, where I showcase my skills, projec
 - **Backend:** 
 - **Hosting:** Vercel 
 ## 📸 Screenshots  
-_Add a few images or GIFs of your portfolio website_ 
+![Image](https://github.com/user-attachments/assets/11641c7a-8e75-4591-821a-0bf6e845ba80)
 
 ## 🚀 Getting Started  
 
@@ -32,18 +32,18 @@ npm run dev
 ```
 Then open http://localhost:3000 in your browser.
 
-📌 Live Demo
-🔗 View My Portfolio
+## 📌 Live Demo  
+🔗 [View My Portfolio](https://portfolio-steel-pi-37.vercel.app/)
 
 🛠️ Future Improvements
-Add animations for a better user experience
-Improve SEO and performance
-More detailed case studies for each project
+- Add animations for a better user experience
+- Improve SEO and performance
+- More detailed case studies for each project
+  
 🤝 Contributing
-If you have any suggestions or improvements, feel free to open an issue or submit a pull request!
+- If you have any suggestions or improvements, feel free to open an issue or submit a pull request!
 
 📬 Contact
-📧 Email: your-email@example.com
-🐦 Twitter: @yourhandle
-💼 LinkedIn: Your Name
+  📧 Email: yaredbitewlign@gmail.com
+  💼 LinkedIn: Yared Bitewlign
 
