@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Screenshot (299)](https://github.com/user-attachments/assets/8c4ef89f-62ab-403a-b725-46f872fbe87e)# 🌐 My Portfolio Website
 
-## Getting Started
+Welcome to my **personal portfolio website**, where I showcase my skills, projects, and experience as a frontend developer. 🚀  
 
-First, run the development server:
+## 🔥 Features  
+- Responsive and modern UI  
+- Showcases projects with descriptions and live demos  
+- Contact form for easy communication  
+- Dark/Light mode support (if applicable)  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🛠️ Tech Stack  
+- **Frontend:** React.js, Next.js, Tailwind CSS (or your preferred stack)  
+- **Backend:** 
+- **Hosting:** Vercel 
+## 📸 Screenshots  
+_Add a few images or GIFs of your portfolio website_ 
+
+## 🚀 Getting Started  
+
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
 ```
+2️⃣ Install Dependencies
+```sh
+npm install
+```
+3️⃣ Run the Project
+```sh
+npm run dev
+```
+Then open http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📌 Live Demo
+🔗 View My Portfolio
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🛠️ Future Improvements
+Add animations for a better user experience
+Improve SEO and performance
+More detailed case studies for each project
+🤝 Contributing
+If you have any suggestions or improvements, feel free to open an issue or submit a pull request!
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+📬 Contact
+📧 Email: your-email@example.com
+🐦 Twitter: @yourhandle
+💼 LinkedIn: Your Name
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
