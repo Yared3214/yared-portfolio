@@ -4,33 +4,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Poetsen+One&display=swap');
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground: rgb(148, 163, 184);
-    --background-start: #0f172a;
-    --background-end: #0f172a;
-  }
+  --foreground: rgb(148, 163, 184);   /* text color */
+  --background-start: #0f172a;        /* top of gradient */
+  --background-end: #1e293b;          /* bottom of gradient (slightly lighter navy) */
 }
 
 body {
   color: var(--foreground);
   background: linear-gradient(
       to bottom,
-      transparent,
+      var(--background-start),
       var(--background-end)
-    )
-    var(--background-start);
-    font-family: "Marcellus", serif;
+    );
+  font-family: "Marcellus", serif;
 }
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
-
-
