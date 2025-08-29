@@ -3,9 +3,13 @@ import Image from "next/image";
 import reactLogo from "./assets/react-logo.png"
 import nextLogo from "./assets/next.svg"
 import Link from "next/link";
+import healthCompanion from "./assets/skin-health-companion.png"
+import stock from "./assets/stock.png"
+import fastX from "./assets/fastX-logo.png"
 import { useState, useEffect } from "react";
+import { ExternalLink, Star } from "lucide-react";
 
-const sections = ["about", "skills"];
+const sections = ["about", "skills", "projects"];
 
 export default function Home() {
 
@@ -76,6 +80,36 @@ export default function Home() {
         "ShadcnUI", "Javascript", "Tailwind"
       ]
     }
+  ];
+
+  const projects = [
+    {
+      title: "Skin Health Companion – Patient-Focused Mobile App",
+      desc: "Skin Health Companion is a React Native healthcare app that helps patients access dermatologist-approved resources, manage their profiles, and connect with verified experts. Built with Firebase and Supabase, it features secure authentication, document uploads, role-based access, and a modern, patient-focused design.",
+      img: healthCompanion, // replace with your image path
+      link: "https://github.com/Yared3214/AI-SkinDisease-Classification-App",
+      stars: null,
+      installs: null,
+      tech: ["ReactNative", "React", "Firebase", "Supabase"],
+    },
+    {
+      title: "Ethio Stock Link Lite — Mobile Stock Trading App",
+      desc: "Ethio Stock Link Lite is a React Native offline-first stock trading app built for the Ethiopian market. It allows users to manage their portfolio, view live and cached stock data, place buy/sell orders, and securely deposit funds. The app features smooth bottom-sheet popups, animated transitions, and a modern UI designed for seamless trading even with limited connectivity.",
+      img: stock,
+      link: "https://github.com/Yared3214/EthioStockLink-Lite",
+      stars: null,
+      installs: null,
+      tech: ["React", "ReactNative", "SQLite"],
+    },
+    {
+      title: "FastX Delivery",
+      desc: "FastX Delivery is a modern, high-performance delivery management system designed to streamline logistics, optimize routes, and enhance the delivery experience. Whether you're a small business or a large enterprise, FastX ensures seamless order tracking and efficient dispatching.",
+      img: fastX,
+      link: "https://github.com/johnwalle/fastx-delivery-app",
+      stars: null,
+      installs: null,
+      tech: ["React", "Tailwind"],
+    },
   ];
 
   return (
@@ -152,7 +186,7 @@ export default function Home() {
         {/* <div className="hidden lg:block text-3xl text-white mb-5">
           Frontend / Mobile Skills
         </div> */}
-        <div className="lg:hidden text-sm text-white mb-5">Skills</div>
+        <div className="lg:hidden text-sm font-bold text-white mb-5">Skills</div>
         {/* Frontend/Mobile Skills */}
         {frontSkills.map((skill, index) => (
           <div
@@ -221,16 +255,6 @@ export default function Home() {
           </div>
           <div className="flex flex-col items-center">
             <img
-              src="https://img.icons8.com/color/48/000000/figma.png"
-              alt="Figma Icon"
-              className="lg:w-16 lg:h-16 md:w-13 md:h-13 w-10 h-10"
-            />
-            <p className="mt-2 text-center lg:text-lg text-sm font-semibold">
-              Design Tools (Figma)
-            </p>
-          </div>
-          <div className="flex flex-col items-center">
-            <img
               src="https://static.vecteezy.com/system/resources/thumbnails/000/534/837/small/gdpr_line_solid-13.jpg"
               alt="Collaboration Icon"
               className="lg:w-16 lg:h-16 md:w-13 md:h-13 w-10 h-10"
@@ -251,6 +275,72 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section id="projects" className="mt-20">
+      <h2 className="text-lg lg:hidden font-bold text-slate-200 mb-8">Projects</h2>
+      <div className="space-y-10">
+        {projects.map((project, i) => (
+          <div
+            key={i}
+            className="group relative grid grid-cols-6 gap-4 pb-4 border-b border-slate-700/50"
+          >
+            {/* Project Image */}
+            <div className="col-span-2 flex items-start">
+              <Image
+                alt={project.title}
+                src={project.img}
+                width={500}
+                height={300}
+                className="rounded-lg shadow-md object-contain w-full h-auto"
+              />
+            </div>
+
+            {/* Project Content */}
+            <div className="col-span-4 flex flex-col">
+              {/* Title + External Link */}
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-md font-semibold text-slate-200 hover:text-teal-300"
+              >
+                {project.title}
+                <ExternalLink className="ml-2 w-4 h-4" />
+              </a>
+
+              {/* Description */}
+              <p className="mt-2 text-sm text-slate-400 leading-relaxed">
+                {project.desc}
+              </p>
+
+              {/* Meta Info (Stars or Installs) */}
+              {project.stars && (
+                <div className="mt-2 flex items-center text-sm text-slate-400">
+                  <Star className="w-4 h-4 mr-1 text-yellow-400" />{" "}
+                  {project.stars}
+                </div>
+              )}
+              {project.installs && (
+                <div className="mt-2 flex items-center text-sm text-slate-400">
+                  ⭐ {project.installs} Installs
+                </div>
+              )}
+
+              {/* Tech Stack */}
+              <ul className="mt-3 flex flex-wrap">
+                {project.tech.map((t, idx) => (
+                  <li key={idx} className="mr-2 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium text-teal-300">
+                      {t}
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
     </div>
   </div>
 </main>
