@@ -6,6 +6,7 @@ import Link from "next/link";
 import healthCompanion from "./assets/skin-health-companion.png"
 import stock from "./assets/stock.png"
 import fastX from "./assets/fastX-logo.png"
+import CraftsEcommerceLogo from "./assets/CraftsEcommerceLogo.jpg"
 import { useState, useEffect } from "react";
 import { ExternalLink, Star } from "lucide-react";
 
@@ -105,10 +106,19 @@ export default function Home() {
       title: "FastX Delivery",
       desc: "FastX Delivery is a modern, high-performance delivery management system designed to streamline logistics, optimize routes, and enhance the delivery experience. Whether you're a small business or a large enterprise, FastX ensures seamless order tracking and efficient dispatching.",
       img: fastX,
-      link: "https://github.com/johnwalle/fastx-delivery-app",
+      link: "https://fastx-delivery-app.vercel.app",
       stars: null,
       installs: null,
       tech: ["React", "Tailwind"],
+    },
+    {
+      title: "Ethiopian Artisan Marketplace",
+      desc: "The Ethiopian Artisan Marketplace is a full-stack e-commerce platform designed to empower local Ethiopian artisans by connecting them with global buyers. The platform allows artisans to showcase and sell authentic handmade products such as textiles, pottery, jewelry, and home décor, while educating customers about the cultural heritage behind each craft. Built with modern web technologies, the marketplace offers a seamless user experience, secure payments, and global accessibility. This project highlights how technology can preserve culture, support local economies, and scale traditional craftsmanship to an international market.",
+      img: CraftsEcommerceLogo,
+      link: "https://ethiopian-crafts-e-commerce.vercel.app/",
+      stars: null,
+      installs: null,
+      tech: ["Next js", "Framer-motion", "Zod", "Node-mailer"],
     },
   ];
 
