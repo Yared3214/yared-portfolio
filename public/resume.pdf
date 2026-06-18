@@ -1,0 +1,66 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 3774 >>
+stream
+BT 0.07 0.06 0.10 rg /F1 24 Tf 1 0 0 1 54.00 787.89 Tm (Yared Bitewlign) Tj ET
+BT 0.42 0.27 0.86 rg /F2 11 Tf 1 0 0 1 54.00 768.89 Tm (Full-Stack - Mobile Developer) Tj ET
+BT 0.36 0.35 0.42 rg /F2 8.5 Tf 1 0 0 1 54.00 752.89 Tm (yaredbitewlign@gmail.com   -   + Addis Ababa, Ethiopia   -   github.com/yared3214   -   linkedin.com/in/yared-bitewlign-6764ab263) Tj ET
+0.85 0.84 0.87 RG 1 w 54 736.89 m 541.28 736.89 l S
+BT 0.42 0.27 0.86 rg /F1 8 Tf 1 0 0 1 54.00 722.89 Tm (SUMMARY) Tj ET
+BT 0.07 0.06 0.10 rg /F2 9.5 Tf 1 0 0 1 54.00 709.89 Tm (Full-stack and mobile developer with computer science foundations and a year of post-graduate experience) Tj ET
+BT 0.07 0.06 0.10 rg /F2 9.5 Tf 1 0 0 1 54.00 697.39 Tm (shipping end-to-end products. Strongest in React Native for cross-platform mobile and Next.js for production) Tj ET
+BT 0.07 0.06 0.10 rg /F2 9.5 Tf 1 0 0 1 54.00 684.89 Tm (web, with backend work across Supabase, Firebase and PostgreSQL - role-based access, offline-first storage) Tj ET
+BT 0.07 0.06 0.10 rg /F2 9.5 Tf 1 0 0 1 54.00 672.39 Tm (and secure data handling.) Tj ET
+BT 0.42 0.27 0.86 rg /F1 8 Tf 1 0 0 1 54.00 655.89 Tm (SKILLS) Tj ET
+BT 0.07 0.06 0.10 rg /F2 9.2 Tf 1 0 0 1 54.00 642.89 Tm (Mobile: React Native, Expo, SQLite, Zustand, offline-first storage) Tj ET
+BT 0.07 0.06 0.10 rg /F2 9.2 Tf 1 0 0 1 54.00 630.39 Tm (Web: React, Next.js, TypeScript, Tailwind CSS, Shadcn UI, Framer Motion) Tj ET
+BT 0.07 0.06 0.10 rg /F2 9.2 Tf 1 0 0 1 54.00 617.89 Tm (Backend: Supabase, Firebase, PostgreSQL, REST APIs, authentication, role-based access, Zod) Tj ET
+BT 0.07 0.06 0.10 rg /F2 9.2 Tf 1 0 0 1 54.00 605.39 Tm (Tooling: Git & GitHub, Vercel, Nodemailer, responsive and accessible UI) Tj ET
+BT 0.42 0.27 0.86 rg /F1 8 Tf 1 0 0 1 54.00 588.89 Tm (SELECTED PROJECTS) Tj ET
+BT 0.07 0.06 0.10 rg /F1 9.6 Tf 1 0 0 1 54.00 575.89 Tm (Skin Health Companion - patient mobile app \(React Native, Firebase, Supabase\)) Tj ET
+BT 0.36 0.35 0.42 rg /F2 9 Tf 1 0 0 1 54.00 563.89 Tm (Dermatologist-approved resources, patient records and verified experts, with role-based access and) Tj ET
+BT 0.36 0.35 0.42 rg /F2 9 Tf 1 0 0 1 54.00 552.09 Tm (secure document uploads.) Tj ET
+BT 0.07 0.06 0.10 rg /F1 9.6 Tf 1 0 0 1 54.00 537.29 Tm (Ethio Stock Link Lite - offline-first trading app \(React Native, SQLite\)) Tj ET
+BT 0.36 0.35 0.42 rg /F2 9 Tf 1 0 0 1 54.00 525.29 Tm (Local portfolio, timestamped cached quotes, and queued buy, sell and deposit orders with explicit) Tj ET
+BT 0.36 0.35 0.42 rg /F2 9 Tf 1 0 0 1 54.00 513.49 Tm (pending states.) Tj ET
+BT 0.07 0.06 0.10 rg /F1 9.6 Tf 1 0 0 1 54.00 498.69 Tm (FastX Delivery - logistics console \(React, Tailwind CSS\)) Tj ET
+BT 0.36 0.35 0.42 rg /F2 9 Tf 1 0 0 1 54.00 486.69 Tm (Order board, courier dispatch and a customer-readable tracking timeline on one responsive dashboard.) Tj ET
+BT 0.07 0.06 0.10 rg /F1 9.6 Tf 1 0 0 1 54.00 471.89 Tm (Ethiopian Artisan Marketplace - e-commerce \(Next.js, Zod, Nodemailer\)) Tj ET
+BT 0.36 0.35 0.42 rg /F2 9 Tf 1 0 0 1 54.00 459.89 Tm (Maker-led product pages, a validated cart and checkout, and real order confirmation email for global) Tj ET
+BT 0.36 0.35 0.42 rg /F2 9 Tf 1 0 0 1 54.00 448.09 Tm (buyers.) Tj ET
+BT 0.42 0.27 0.86 rg /F1 8 Tf 1 0 0 1 54.00 433.29 Tm (EDUCATION & CONTINUOUS LEARNING) Tj ET
+BT 0.07 0.06 0.10 rg /F2 9.2 Tf 1 0 0 1 54.00 420.29 Tm (Computer Science Foundations - Academic study - data structures, databases, networking) Tj ET
+BT 0.07 0.06 0.10 rg /F2 9.2 Tf 1 0 0 1 54.00 407.79 Tm (Continuous learning - Self-directed study in mobile and full-stack engineering) Tj ET
+0.86 0.85 0.88 RG 0.6 w 54 381.29 m 541.28 381.29 l S
+BT 0.36 0.35 0.42 rg /F2 8.4 Tf 1 0 0 1 54.00 367.29 Tm (Portfolio and case studies: yaredbitewlign.com) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000257 00000 n 
+0000000359 00000 n 
+0000000456 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4282
+%%EOF
