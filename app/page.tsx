@@ -9,6 +9,7 @@ import healthCompanion from "./assets/skin-health-companion.png";
 import stock from "./assets/stock.png";
 import fastX from "./assets/fastX-logo.png";
 import CraftsEcommerceLogo from "./assets/CraftsEcommerceLogo.jpg";
+import InvestorStartup from "./assets/investor-startup.jpg";
 
 // ── Inline SVG logos ─────────────────────────────────────────────────────────
 function ReactLogo({ size = 28 }: { size?: number }) {
@@ -128,6 +129,14 @@ const projects = [
     img: CraftsEcommerceLogo,
     link: "https://ethiopian-crafts-e-commerce.vercel.app/",
     tech: ["Next.js", "Framer Motion", "Zod", "Nodemailer"],
+  },
+  {
+    title: "Investor–Startup Matchmaking App",
+    subtitle: "Mobile app for investors and startups",
+    desc: "Mobile app that connects investors with startup ideas based on personalized preferences like industry, funding stage, and risk level. Filters and recommends relevant",
+    img: InvestorStartup,
+    link: "https://github.com/Yared3214/Idea-Investor-matcher",
+    tech: ["React Native", "Expo", "Zustand", "Socket.IO"],
   },
 ];
 
